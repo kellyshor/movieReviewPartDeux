@@ -1,0 +1,110 @@
+h1 {
+  font-size: 24pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 3px 3px #999999;
+  text-align: center;
+}
+.header {
+  background-image: url('http://watzek.lclark.edu/cs/293spr2021/ex2/rancidbannerbg.png');
+  background-repeat: repeat-x;
+}
+body {
+  background-image: url('http://watzek.lclark.edu/cs/293spr2021/ex2/moviebg.png');
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.center {
+  text-align: center;
+}
+.all {
+  display: inline-block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+  position: relative;
+  background-color: #EEEEEE;
+}
+.all > p {
+  text-align: center;
+  background-color: #a2b964;
+  clear: both;
+  margin: 0;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 5px;
+}
+.innerheader {
+  background-image: url('http://watzek.lclark.edu/cs/293spr2021/ex2/rottenlargebg.png');
+  background-repeat: repeat-x;
+  font-size: 48pt;
+  font-weight: bold;
+  color: red;
+  position: relative;
+  border-top-left-radius: 20px;
+}
+.innerheader img {
+  border-top-left-radius: 20px;
+}
+.innerheader .percent {
+  position: absolute;
+  top: 9px;
+}
+.reviewsection {
+  width: 550px;
+  float: left;
+  border-top-left-radius: 20px;
+}
+.genoverview {
+  background-color: #a2b964;
+  width: 250px;
+  float: right;
+  border-top-right-radius: 20px;
+}
+.genoverview img {
+  border-top-right-radius: 20px;
+}
+
+.genoverview dl {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10pt;
+}
+.genoverview dt {
+  font-weight: bold;
+  padding-top: 10pt;
+}
+.genoverview ul {
+  list-style-type: none;
+  padding: 0;
+}
+.column {
+  float: left;
+  width: 47%;
+  margin-left: 2%;
+}
+.col > p > img{
+    float: left;
+}
+.reviews {
+  font-size: 10pt;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #CCCCCC;
+  border-radius: 20px;
+  padding: 8px;
+  overflow: auto;
+}
+q {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.source {
+  font-style: italic;
+}
+#validator {
+  float: right;
+}
